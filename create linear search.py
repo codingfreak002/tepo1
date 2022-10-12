@@ -4,7 +4,7 @@ array=[]
 n=int(input("total elments in array"))
 print("enter the elements")
 i=1
-here we use while loop and also append element in array
+# here we use while loop and also append element in array
 while(i<=n):
     e=int(input("enter the roll no"))
     array.append(e)
@@ -14,6 +14,7 @@ print(array)
 
 search_element=int(input("enter the element that you want to search"))
 
+# function for linear serach
 def linear_search():
     for i in range(len(array)):
         if array[i]==search_element:
