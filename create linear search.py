@@ -17,7 +17,7 @@ search_element=int(input("enter the element that you want to search"))
 def linear_search():
     for i in range(len(array)):
         if array[i]==search_element:
-            print("the enter roll no has  attend the lecture")
+            print("element found")
     else:
-        print("the attend roll no did not attend the training program")
+        print("Sorry element not found")
 linear_search()
